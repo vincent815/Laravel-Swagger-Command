@@ -14,7 +14,7 @@ To be more convenient. some developers don't like typing long command line conso
 4. Register this in Console/Kernel.php
 5. Change path to scan in $pathToScan
 6. Change path to generate in $pathToGenerate
-
+7. Run **php artisan make:swag**
 
 ## Notes
 ------
