@@ -18,7 +18,7 @@ class MakeSwag extends Command
      *
      * @var string
      */
-    protected $description = 'Create swagger.json file in public/api/docs';
+    protected $description = 'Create swagger.json file in public/docs';
 
     /**
      * Path of swagger.bin is located.
@@ -74,6 +74,7 @@ class MakeSwag extends Command
                 }
             } else {
                 mkdir("public/docs/", 0777);
+                $this->info('public/docs created!');
                 if (
                     file_exists("public/docs/swagger-ui.js") &&
                     file_exists("public/docs/index.html") &&
@@ -92,7 +93,7 @@ class MakeSwag extends Command
                 }
             }
         } else {
-            $this->error('Swagger not installed in this project, Please download zircote/swagger-php.');
+            $this->error('Swagger-php not installed in this project, Please download zircote/swagger-php.');
         }
     }
 }
