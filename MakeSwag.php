@@ -25,7 +25,7 @@ class MakeSwag extends Command
      *
      * @return void
      */
-    protected $pathToScan  = "/home/vagrant/Code/vue-starter-laravel-api/app";
+    protected $pathToScan  = "/home/vagrant/Code/YOUR-PROJECT-NAME-HERE/app";
 
     /**
      * Path of swagger.json will be generated.
