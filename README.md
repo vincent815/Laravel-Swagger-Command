@@ -4,7 +4,7 @@ Laravel Swagger Command will create an artisan console that will execute ./vendo
 
 ## Why did I make this?
 ------
-To be more convenient. Some developers don't like typing long command line consoles (like me)
+To be more convenient. Some developers don't like typing long commands (like me)
 
 From : 
 ```
