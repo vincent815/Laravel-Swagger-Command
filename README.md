@@ -5,6 +5,7 @@ Laravel Swagger Command will create an artisan console that will execute ./vendo
 ## Why did I make this?
 ------
 To be more convenient. Some developers don't like typing long command line consoles (like me)
+
 From : 
 ```
 ./vendor/bin/swagger /home/vagrant/Code/vue-starter-laravel-api/app --output public/api/docs/
